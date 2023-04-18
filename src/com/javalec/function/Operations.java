@@ -38,9 +38,12 @@ public class Operations {
 //		return resulf;
 //
 //	}
-//	public double divCalc () {
-//
-//	}
+	public double divCalc () {
+		divResult = (double)firstNum / secondNum;
+		System.out.println(firstNum + " / " +secondNum + " = " + divResult);
+		return 0;
+		
+	}
 	
 	public double reminderCalc() { 		// 몫과 나머지 
 		reminder = firstNum % secondNum;

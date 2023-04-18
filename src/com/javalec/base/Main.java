@@ -38,14 +38,20 @@ public class Main {
 			switch(act){
 				case 1:
 					operations.addCalc();
+					break;
 				case 2:
 					
+					break;
 				case 3:
 					
+					break;
 				case 4:
 					
+					operations.divCalc();
+					break;
 				case 5:
 					
+					break;
 				case 6:
 					System.out.println(">>> Thank You <<<");
 					loop = false;
