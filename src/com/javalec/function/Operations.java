@@ -33,11 +33,11 @@ public class Operations {
 //	public int subCalc () {
 //
 //	}
-//	public int multiCalc () {
-//		result = firstNum * secondNum ;
-//		return resulf;
+	public int multiCalc () {
+		result = firstNum * secondNum ;
+		return result;
 //
-//	}
+	}
 	public double divCalc () {
 		divResult = (double)firstNum / secondNum;
 		System.out.println(firstNum + " / " +secondNum + " = " + divResult);

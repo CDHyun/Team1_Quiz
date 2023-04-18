@@ -43,7 +43,7 @@ public class Main {
 					
 					break;
 				case 3:
-					
+					operations.addCalc();
 					break;
 				case 4:
 					
