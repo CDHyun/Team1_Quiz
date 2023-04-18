@@ -30,6 +30,8 @@ public class Operations {
 
 	}
 	public int multiCalc () {
+		result = firstNum * secondNum ;
+		return resulf;
 
 	}
 	public double divCalc () {
