@@ -21,6 +21,7 @@ public class Main {
 		System.out.println("1. 덧셈\n2. 뺄셈\n3. 곱셈\n4. 나눗셈\n5. 몫과 나머지\n6. 종료");
 		act = scanner.nextInt();
 		
+		// 나 지금 되는거니??
 		
 	}
 
