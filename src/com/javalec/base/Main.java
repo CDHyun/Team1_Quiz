@@ -18,6 +18,7 @@ public class Main {
 		secondNum = scanner.nextInt();
 		
 		System.out.println("*** 원하는 결과를 선택하세요 ***");
+		System.out.println("1. 덧셈\n2. 뺄셈\n3. 곱셈\n4. 나눗셈\n5. 몫과 나머지\n6. 종료");
 		act = scanner.nextInt();
 		
 		
