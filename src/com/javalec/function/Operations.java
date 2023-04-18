@@ -31,8 +31,10 @@ public class Operations {
 		return 0;
 	}
 //	public int subCalc () {
-//
-//	}
+		result = firstNum - secondNum;
+		System.out.println(firstNum + " - " +secondNum + " = " + result);
+		return 0;
+	}
 	public int multiCalc () {
 		result = firstNum * secondNum ;
 		return result;
