@@ -26,20 +26,21 @@ public class Operations {
 
 	// Method 
 	public int addCalc () {
-		result = firstNum + secondNum ;
-		return result;
+		result = firstNum + secondNum;
+		System.out.println(firstNum + " + " +secondNum + " = " + result);
+		return 0;
 	}
-	public int subCalc () {
-
-	}
-	public int multiCalc () {
-		result = firstNum * secondNum ;
-		return resulf;
-
-	}
-	public double divCalc () {
-
-	}
+//	public int subCalc () {
+//
+//	}
+//	public int multiCalc () {
+//		result = firstNum * secondNum ;
+//		return resulf;
+//
+//	}
+//	public double divCalc () {
+//
+//	}
 	
 	public double reminderCalc() { 		// 몫과 나머지 
 		reminder = firstNum % secondNum;

@@ -27,6 +27,7 @@ public class Main {
 		
 		System.out.println("*** 원하는 결과를 선택하세요 ***");
 		System.out.println("1. 덧셈\n2. 뺄셈\n3. 곱셈\n4. 나눗셈\n5. 몫과 나머지\n6. 종료");
+		System.out.print("==========> 선택 : ");
 		act = scanner.nextInt();
 		
 		// 각 case에서 기능 메소드를 불러서 구현되게 제작.
@@ -36,7 +37,7 @@ public class Main {
 		while(loop == true) {
 			switch(act){
 				case 1:
-				
+					operations.addCalc();
 				case 2:
 					
 				case 3:
