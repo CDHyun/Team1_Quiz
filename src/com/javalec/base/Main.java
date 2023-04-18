@@ -2,6 +2,8 @@ package com.javalec.base;
 
 import java.util.Scanner;
 
+import com.javalec.function.Operations;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -28,6 +30,7 @@ public class Main {
 		act = scanner.nextInt();
 		
 		// 각 case에서 기능 메소드를 불러서 구현되게 제작.
+		Operations operations = new Operations(firstNum, secondNum);
 		
 		
 		while(loop == true) {

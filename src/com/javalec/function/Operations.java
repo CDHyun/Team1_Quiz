@@ -6,7 +6,8 @@ public class Operations {
 	private int firstNum;
 	private int secondNum;
 	private int act;
-	int result ;
+	int result;
+	int quotient;
 	double divResult ;
 	double reminder;
 	
@@ -14,12 +15,14 @@ public class Operations {
 	public Operations() {
 		// TODO Auto-generated constructor stub
 	}
-	public Operations(int firstNum, int secondNum, int act) {
+
+	public Operations(int firstNum, int secondNum) {
 		super();
 		this.firstNum = firstNum;
 		this.secondNum = secondNum;
-		this.act = act;
 	}
+
+
 
 	// Method 
 	public int addCalc () {
@@ -38,8 +41,9 @@ public class Operations {
 
 	}
 	
-	public double reminderCalc() { 		// 나머지 
-		reminder = firstNum % secondNum ;
+	public double reminderCalc() { 		// 몫과 나머지 
+		reminder = firstNum % secondNum;
+		quotient = firstNum / secondNum;
 		return reminder;
 	}
 	
